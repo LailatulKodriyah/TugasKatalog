@@ -1,0 +1,255 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+.navbar-brand {
+  font-size: 45px;
+  font-weight: Bold;
+  font-family: petrona;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 100px;
+}
+
+.hero {
+  background: url("foto/model.jpeg") no-repeat center center/cover;
+  height: 80vh; 
+  position: relative;
+  height: 650px;
+  top: 10px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.fw-bold {
+  position: absolute;
+  left: 540px;
+  font-size: 65px;
+  top: 50px;
+  opacity: 0.6;
+}
+
+.p-nav {
+  position: absolute;
+  left: 30px;
+  margin-top: -110px;
+  font-size: 25px;
+  
+}
+
+.button {
+  position: absolute;
+  left:165px;
+  top: 160px;
+  background-color: #021648;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px;
+}
+
+
+.text {
+  position: absolute;
+  left: 480px;
+  top: 850px;
+  font-size: 45px;
+  font-weight: Bold;
+  font-family: petrona;
+}
+
+/* CARD */
+/* card1 */
+.card1 {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1 img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card1 h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.card1 p {
+  font-weight: bold;
+  color: #444;
+}
+
+.card1:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+/* card2 */
+.card2 {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card2 img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card2 h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.card2 p {
+  font-weight: bold;
+  color: #444;
+}
+
+.card2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+/* card3 */
+.card3 {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card3 img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card3 h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.card3 p {
+  font-weight: bold;
+  color: #444;
+}
+
+.card3:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;   
+  gap: 100px;                
+  margin-top: 230px;
+}
+
+.text1 {
+  position: absolute;
+  left: 540px;
+  top: 1470px;       
+  font-size: 45px;
+  font-weight: Bold;
+  font-family: petrona;
+
+}
+
+.text2 {
+  position: absolute;
+  top: 1600px;
+  left: 150px;
+  font-size: 20px;
+}
+
+.text3 {
+  position: absolute;
+  top: 1750px;
+  left: 150px;
+  font-size: 20px;
+}
+
+.text4 {
+  position: absolute;
+  top:1870px;
+  left: 150px;
+  font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #0b163f;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-top: 700px;
+  height: 130px;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.socials {
+  margin: 10px 0;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.address img {
+  width: 25px;
+  height: 25px;
+}
