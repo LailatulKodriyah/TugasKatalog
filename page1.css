@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-brand {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: Bold;
   font-family: petrona;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .hero {
-  background: url("foto/model.jpeg") no-repeat center center/cover;
+  background: url("foto/sikil3.jpg") no-repeat center center/cover;
   height: 80vh; 
   position: relative;
   height: 650px;
@@ -218,15 +218,16 @@ footer {
 }
 
 footer h2 {
-  margin-bottom: 10px;
-}
-
-.footer-content p {
-  margin: 5px 0;
+  position: absolute;
+  margin-top: 9px;
+  left: 120px;
+  font-size: 45px;
 }
 
 .socials {
-  margin: 10px 0;
+  position: absolute;
+  left: 120px;
+  margin: 80px 0;
 }
 
 .socials img {
@@ -241,15 +242,40 @@ footer h2 {
   transform: scale(1.2);
 }
 
-.address {
+.by {
+  position: absolute;
+  left: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 90px;
+  gap: 10px;
+}
+
+.sosmed {
+  position: absolute;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  gap: 10px;
+}
+
+.address {
+  position: absolute;
+  left: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
   gap: 10px;
 }
 
 .address img {
+  position: absolute;
+  left: -30px;
+  margin-top: -80px;
   width: 25px;
   height: 25px;
 }

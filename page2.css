@@ -56,3 +56,76 @@ body {
   color: #333;
   margin: 5px 0;
 }
+
+/* FOOTER */
+footer {
+  background: #0b163f;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-top: 50px;
+  height: 130px;
+}
+
+footer h2 {
+  position: absolute;
+  margin-top: 9px;
+  left: 120px;
+  font-size: 45px;
+}
+
+.socials {
+  position: absolute;
+  left: 120px;
+  margin: 80px 0;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+.by {
+  position: absolute;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 10px;
+}
+
+.sosmed {
+  position: absolute;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  gap: 10px;
+}
+
+.address {
+  position: absolute;
+  left: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.address img {
+  position: absolute;
+  left: -30px;
+  margin-top: -80px;
+  width: 25px;
+  height: 25px;
+}
