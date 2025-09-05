@@ -33,59 +33,70 @@ font-family: 'Georgia', serif;
 }
 
 .product-info h2 {
-  position: absolute;
-  left: 500px;
-  font-size: 22px;
-  margin-top: 100px;
+  margin-left: 30rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.product-info h3 {
-  position: absolute;
-  left: 500px;
-  color: #000000;
-  margin-top: 200px;
+.product-info h4 {
+  margin-left: 30rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .product-info p {
-  position: absolute;
-  margin-top: 10px;
-  left: 500px;
-  margin: 8px 0;
-  color: #000000;
+  margin-left: 30rem;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.sizes button {
+.size {
+  position: absolute;
+  left: 35rem;
+  top: 23rem;
+}
+/* .size button {
   border: 1px solid #888;
   background: #fff;
   padding: 6px 12px;
   margin: 5px 5px 10px 0;
   cursor: pointer;
   border-radius: 5px;
+  position: relative;
+  top: 17rem;
+  right: 25rem; 
 }
 
-.sizes button:hover {
-  background: #f0f0f0;
-}
+.size button:hover {
+  background: grey;
+} */
 
 .buy-btn {
+  width: 10rem;
+  height: 2rem;
+  position: absolute;
+  left: 570px;
   display: inline-block;
   padding: 10px 20px;
-  margin: 15px 0;
-  background: #d62b70;
-  color: white;
+  margin: 300px 0;
+  background: #d6d5d5;
+  color: black;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   font-weight: bold;
 }
 
+.buy-btn p {
+  text-align: center;
+  margin-top: -5px;
+}
 .buy-btn:hover {
-  background: #b5205c;
+  background: #76767d;
 } 
 
 .desc {
   position: absolute;
-  right: 700px;
+  right: 740px;
   margin-top: 430px;
   line-height: 1.6;
 }
@@ -95,7 +106,7 @@ footer {
   color: white;
   text-align: center;
   padding: 8px;
-  margin-top: 450px;
+  margin-top: 300px;
   height: 130px;
 }
 
