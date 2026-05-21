@@ -10,7 +10,6 @@
    include "route/web.php";
 
 ?>
-  <?php include "page/home.php"; ?>
 
    <?php include "component/footer.php"; ?>
 
